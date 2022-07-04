@@ -1,14 +1,14 @@
-/* Fonts */
-
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap'); /* font-family: 'Lato', sans-serif; */
-
 /* Variáveis */
 
 :root {
+    /* cores */
     --color-menu-footer: black;
-    --color-links-devs: white;
+    --color-brancoNoPreto: white;
 
+    /* fontes */
     --fonts-link-devs: 'Lato', sans-serif;
+    --fonts-titulo: 'Merriweather Sans', sans-serif;
+    --fonts-menu-hybe: 'Nunito Sans', sans-serif;
 }
 
 /* Config Globais */
@@ -50,7 +50,7 @@
 }
 
 .menu ul li a {
-    color: var(--color-links-devs);
+    color: var(--color-brancoNoPreto);
     text-decoration: none;
     font-family: var(--fonts-link-devs);
     font-size: 20px;
@@ -77,9 +77,39 @@
 }
 
 .rodape p {
-    color: var(--color-links-devs);
+    color: var(--color-brancoNoPreto);
     font-family: var(--fonts-link-devs);
     font-size: 20px;
     font-weight: bold;
     text-shadow: -2px 1px 3px #ffffff61;
+}
+
+/* Header / HYBE */
+
+.cabecaHybe {
+    background-image: url('../img/fundo-HYBE.png');
+    color: var(--color-brancoNoPreto);
+    width: 95%;
+    height: 700px;
+    margin: 50px 0 0 45px;
+    border-radius: 28px;
+}
+
+.cabecaHybe h1 {
+    font-family: var(--fonts-titulo);
+    font-size: 80px;
+    padding: 50px;
+}
+
+.empresas {
+    font-family: var(--fonts-menu-hybe);
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 250px;
+    padding: 15px 15px 15px 55px;
+    border-left: 5px solid var(--color-brancoNoPreto);
+}
+
+.empresas a {
+    color: ;
 }
