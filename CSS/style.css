@@ -21,6 +21,22 @@
     list-style-type: none;
 }
 
+.linha /* hr */ {
+    background-color: var(--color-brancoNoPreto);
+    width: 1300px;
+    height: 5px;
+    margin-top: 50px;
+    margin-left: 250px;
+}
+
+span {
+    font-weight: bolder;
+}
+
+span:hover {
+   text-decoration: underline;
+}
+
 /* Menu */
 
 .menu {
@@ -67,6 +83,11 @@
 
 .cabecaHybe {
     background-image: url('../img/fundo-HYBE.png');
+    background-position: center center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
     color: var(--color-brancoNoPreto);
     width: 95%;
     height: 700px;
@@ -125,10 +146,55 @@
 
 .bh {
     background-image: url(../img/fundo-bh.png);
+    background-position: center center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
     width: 95%;
-    height: 700px;
+    height: 1100px;
     margin: 200px 0 0 45px;
     border-radius: 28px;
+}
+
+.logoBH {
+    width: 450px;
+    margin: 50px 0 0 650px;
+}
+
+.bh p {
+    color: var(--color-brancoNoPreto);
+    font-family: var(--fonts-padrao);
+    font-size: 30px;
+    width: 850px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 450px;
+}
+
+/* Grupos */
+
+.grupos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* BTS */
+
+.bts {
+    background-image: url(../img/bts.png);
+    width: 750px;
+    height: 414px;
+}
+
+/* TXT */
+
+.txt {
+    background-image: url(../img/txt.png); /* mudar o tamanho da foto do TXT usando o gimp */
+    width: 750px;
+    height: 414px;
 }
 
 /* Rodapé / Footer */
