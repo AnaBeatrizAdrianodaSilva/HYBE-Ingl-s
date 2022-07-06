@@ -444,13 +444,100 @@ span:hover {
     border-left: 5px solid black;
 }
 
+/* Lee Serafim */
+
 .LS {
-    background-image: url(../img/enhypen.png);
+    background-image: url(../img/ls.png);
     width: 1200px;
     height: 678px;
-    margin: 200px auto;
+    margin: 380px auto;
     border-radius: 45px;
 }
+
+.LS:hover {
+    background:
+        linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+        url(../img/ls.png);
+    cursor: pointer;
+}
+
+.LS h2 {
+    color: var(--color-brancoNoPreto);
+    text-align: center;
+    font-size: 80px;
+    font-family: var(--fonts-titulo);
+    opacity: 0;
+    padding-top: 270px;
+}
+
+.LS h2:hover {
+    opacity: 1;
+    transition-duration: 2s;
+}
+
+/* HYBE America */
+
+.ha {
+    background-image: url(../img/fundoHA.png);
+    background-position: center center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    width: 95%;
+    height: 900px;
+    margin: 1100px 0 0 45px;
+    border-radius: 28px;
+}
+
+.ha p {
+    color: var(--color-brancoNoPreto);
+    font-family: var(--fonts-padrao);
+    font-size: 30px;
+    width: 850px;
+    margin: /*500px*/ 0 0 50px 450px;
+}
+
+#paragrafo {
+    position: absolute;
+    margin-top: 300px;
+}
+
+#paragrafo2 {
+    position: absolute;
+    margin-top: 550px;
+}
+
+.ha span a {
+    color: var(--color-brancoNoPreto);
+    text-decoration: none;
+}
+
+/* Grupos */
+
+.AG, .DL {
+    margin-top: 1000px;
+    border-radius: 45px;
+    padding-top: 150px;
+}
+
+
+/* Ariana Grande */
+
+.AG {
+    background-image: url(../img/AG.png);
+    width: 750px;
+    height: 414px;
+}
+
+.AG:hover {
+    background:
+        linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+        url(../img/AG.png);
+    cursor: pointer;
+}
+
+/* Demi Lovato */
 
 /* Rodapé / Footer */
 
