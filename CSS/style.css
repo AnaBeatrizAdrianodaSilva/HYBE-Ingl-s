@@ -333,7 +333,7 @@ span:hover {
     z-index: 1;
     width: 95%;
     height: 900px;
-    margin: 2600px 0 0 45px;
+    margin: 2700px 0 0 45px;
     border-radius: 28px;
 }
 
@@ -353,7 +353,7 @@ span:hover {
 /* grupos */
 
 .seventeen, .fromis9 {
-    margin-top: 200px;
+    margin-top: 150px;
     border-radius: 45px;
     padding-top: 150px;
 }
